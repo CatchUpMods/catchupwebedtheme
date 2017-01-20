@@ -1,0 +1,2 @@
+# sedna
+WebEd Sedna theme
