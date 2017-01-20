@@ -7,4 +7,5 @@
 - Replace WebEd composer.json with the composer.json file at **/sample-data/composer.json**
 - Import the database in **/sample-data/db.sql**
 - Run **composer dump-autoload**
+- Run **php artisan vendor:publish --tag=webed-public-assets**
 - Login to dashboard by navigate to **/admincp** with user **admin/123456**
