@@ -1,4 +1,4 @@
-@extends('webed-theme-sedna::front._master')
+@extends('webed-theme::front._master')
 
 @section('content')
     <section class="hero">

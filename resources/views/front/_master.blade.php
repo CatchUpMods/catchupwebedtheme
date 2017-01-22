@@ -37,11 +37,11 @@
 
 <body class="{{ $bodyClass or '' }} @php do_action('front_body_class') @endphp" id="top">
 
-@include('webed-theme-sedna::front._partials.header')
+@include('webed-theme::front._partials.header')
 
 @yield('content')
 
-@include('webed-theme-sedna::front._partials.footer')
+@include('webed-theme::front._partials.footer')
 
 @yield('other-content')
 

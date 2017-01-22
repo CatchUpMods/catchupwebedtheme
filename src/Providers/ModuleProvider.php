@@ -12,9 +12,9 @@ class ModuleProvider extends ServiceProvider
     public function boot()
     {
         /*Load views*/
-        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'webed-theme-sedna');
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'webed-theme');
         /*Load translations*/
-        $this->loadTranslationsFrom(__DIR__ . '/../../resources/lang', 'webed-theme-sedna');
+        $this->loadTranslationsFrom(__DIR__ . '/../../resources/lang', 'webed-theme');
         /*Load migrations*/
         $this->loadMigrationsFrom(__DIR__ . '/../../database/migrations');
 
