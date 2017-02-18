@@ -19,7 +19,7 @@ abstract class AbstractController extends BaseFrontController
      */
     protected function getMenu($type, $relatedId)
     {
-        $menuHtml = webed_menu_render(get_settings('top_menu', 'top-menu'), [
+        $menuHtml = webed_menu_render(get_settings('main_menu', 'main-menu'), [
             'class' => 'primary-nav',
             'container_class' => '',
             'has_sub_class' => 'dropdown',

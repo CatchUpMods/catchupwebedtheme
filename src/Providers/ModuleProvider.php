@@ -48,8 +48,5 @@ class ModuleProvider extends ServiceProvider
         foreach ($configs as $key => $row) {
             $this->mergeConfigFrom($row, $key);
         }
-
-        $this->app->register(RouteServiceProvider::class);
-        $this->app->register(BootstrapModuleServiceProvider::class);
     }
 }
